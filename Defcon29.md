@@ -5,7 +5,9 @@
 
 * https://github.com/magnologan/awesome-k8s-security
 * https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html
-* https://github.com/aquasecurity/kube-bench
+* Medical Device Panel
+>	* Stephanie Domas
+>	* Kymberlee Price	
 
 ## Day 1
 
@@ -51,7 +53,7 @@
 
 ### AI Village Keynote (AIV)
 > Bruce Schneider
->	* https://www.belfercenter.org/publication/coming-ai-hackers
+>>	* https://www.belfercenter.org/publication/coming-ai-hackers
 >
 >	* Modern AI systems are essentially black boxes (explainability problem)
 >	* Deep Patient (medical diagnostic)
@@ -64,6 +66,7 @@
 
 ### What we thought would happen in 2021 (BTV)
 > Gert-Jan Brggink @gertjanbruggink
+>
 >	* Overall risk is becoming greater
 >	* Evolution of crimewave business
 >	* Western bias in threat landscape
@@ -80,11 +83,13 @@
 
 ### Attacking Modern Environments: Attacking Terraform (CV)
 > Mazin Ahmed @mazen160!
+>
 >	* **Missed most of this**
 >	* Rogue terraform providers
 
 ### KubeGOAT (CV)
 > Madhu Akula @madhuakula
+>
 > * For learning kubernetes security
 > * The illustrated children’s guide to kubernetes
 > * Kubernetesbyexample
@@ -93,6 +98,7 @@
 
 ### Trailblazing AI for Cyber (AIV)
 > Sagar Samtani
+>
 >	* Slides available on aivillage site
 >	* Cybersecurity for AI vs the role of AI for cybersecurity
 >	* Introduce the role of AI for cyber
@@ -115,12 +121,71 @@
 
 ### Kubestriker (DL1)
 > Vasant Chinnipilli
+>
 >	* Runs as container
 >	* Evaluates clusters
 >	* New version has much improved interface
 >	* Videos available in docs
 >	* https://www.kubestriker.io/
 >	* https://github.com/vchinnipilli/kubestriker
+
+### Kubernetes Security 101 (CV)
+> @mangologan
+>
+>>	* https://github.com/magnologan/awesome-k8s-security
+>>	* https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html
+>	* MITRE ATT&CK for Containers and k8s
+>	* K8s threat matrix by Microsoft
+>	* Definition of CNCF, cloud native, etc.
+>	* Mid-level description of kubernetes architecture
+>	* Description of k8s yaml configuration
+>	* MITRE ATT&CK for IaaS
+>	* Slides??
+>		* K8s attack scenario
+>		* Utilizing node tokens 
+>		* Amicontained (GitHub)
+>		* Env | grep -I kube
+>		* SA token
+>			* /var/run/secrets/kubernetes/io/serviceaccounts
+>		* Privilege pod - container escape
+>	* Defending k8s
+>		* Not secure by default
+>		* Master node
+>			* K8s ownership and file permissions from CIS
+>			* NSA k8s hardening guidance doc in addition to CIS
+>		* Worker nodes
+>			* K8s ownership and file permissions from CIS
+>		* Kube-system namespace
+>			* Master node resources are in this namespace
+>		* Kube api server
+>			* Exposure
+>		* Kubelet
+>			* Agent that runs on each node
+>			* Restrict kubelet permissions
+>			* Rotate kubelet certificates
+>		* [kube-bench](https://github.com/aquasecurity/kube-bench)
+>			* Checks if deployed securely
+>				* Validated against CIS k8s benchmark
+>				* In Go
+>		* Image scanning
+>		* Runtime
+>			* Falco
+>				* Parses kernel sys calls at runtime
+>				* Detects unexpected behavior
+>				* Generates alerts
+>				* Rules engine 
+>				* Sidekick (??)
+>			* Limit resources to pods
+>			* Security context
+>			* Seccomp/apparmor/selinux
+>			* Pod Security Policies (Deprecated)
+>			* Alternatives
+>				* OPA/Gatekeeper
+>				* Kyverno
+>				* PSP++/ContainerBoundary?
+>			* Treat cluster-admin like root
+
+
  
 
     
