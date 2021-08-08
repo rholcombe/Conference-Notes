@@ -51,7 +51,7 @@
 >		* Detection via excessive SSO errors
 
 ### AI Village Keynote (AIV)
-> Bruce Schneider
+> Bruce Schneider  
 > [Based on](https://www.belfercenter.org/publication/coming-ai-hackers) 
 >> Presentation slides
 >
