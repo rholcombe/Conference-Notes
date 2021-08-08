@@ -199,7 +199,7 @@ GENERAL NOTES:
 >	* Almost all problems in code
 >		* Traditional focus doesn’t cover enough
 >		* Security Level Objectives (SLO)
->>			* [BlackHat EU talk](https://www.blackhat.com/eu-20/features/schedule/index.html#are-you-big-friendly-giant---red-unless-blue-finds-green-ru-bfg-22029)
+>			* [BlackHat EU talk](https://www.blackhat.com/eu-20/features/schedule/index.html#are-you-big-friendly-giant---red-unless-blue-finds-green-ru-bfg-22029)
 >	* Curriculum Development
 >		* Based on OWASP standards
 >			* ASC Foundation
@@ -209,7 +209,7 @@ GENERAL NOTES:
 >				* Uses Cornucopia
 >				* Kind of OWASP top 5
 >				* Cornucopia is a card game
->				>	* youtu.be/BZVoQurTEMc
+>					* youtu.be/BZVoQurTEMc
 >				* AuthN
 >				* AuthZ
 >				* Session mgmt
