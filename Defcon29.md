@@ -103,7 +103,6 @@
 > Sagar Samtani
 >> Presentation slides
 >
->	* Slides available on aivillage site
 >	* Cybersecurity for AI vs the role of AI for cybersecurity
 >	* Introduce the role of AI for cyber
 >	   * Automate common tasks
@@ -126,13 +125,13 @@
 ### Kubestriker (DL1)
 > Vasant Chinnipilli
 >> Presentation slides
+>> [Kubestriker](https://github.com/vchinnipilli/kubestriker)
 >
 >	* Runs as container
 >	* Evaluates clusters
 >	* New version has much improved interface
 >	* Videos available in docs
 >	* https://www.kubestriker.io/
->	* https://github.com/vchinnipilli/kubestriker
 
 ### Kubernetes Security 101 (CV)
 > Mango Logan @mangologan
@@ -190,10 +189,6 @@
 >				* Kyverno
 >				* PSP++/ContainerBoundary?
 >			* Treat cluster-admin like root
-
-
- 
-
     
 ## Day 2
 
@@ -307,7 +302,7 @@ GENERAL NOTES:
 
 ### How do you do ALL THE CLOUDS (BTV):
 > henry @Bazinga73
-> [Presentation slides](https://cfc.blueteamvillage.org/media/call-for-content-2021/submissions/ZMUGGE/resources/BTV-henry_-_How_do_you_ALL_THE_CLOUDS_17ACPJP.pdf)
+>> [Presentation slides](https://cfc.blueteamvillage.org/media/call-for-content-2021/submissions/ZMUGGE/resources/BTV-henry_-_How_do_you_ALL_THE_CLOUDS_17ACPJP.pdf)
 >
 >	* General cloud challenges
 >		* Security
@@ -327,6 +322,8 @@ GENERAL NOTES:
 ### Modern Auth for security admins (BTV)
 > Bailey Bercik @BaileyBercik. 
 > Mark Morowczynski @markmorow
+>> Presentation slides
+>
 > **MS Identity Product Group**
 >	* Discussion of modern auth methods	
 >		* SAML
@@ -386,21 +383,21 @@ GENERAL NOTES:
 > Michael Raggo
 >> Presentation slides
 >
-> * What am I looking for?
->     * Uptick in identity account activity
->     * High quantity of services
->     * New access methods
->     * S3 GetObjects, PutObjects, ListObjects - signs of lateral movement
->     * Inactive account suddenly is used for lots of activities
->     * Role chaining/cross account activity
->     * New source IP/Geo
->     * Change in security group policy
-> * Discussion of cloud over-permissions
+>	* What am I looking for?
+>		* Uptick in identity account activity
+>		* High quantity of services
+>		* New access methods
+>		* S3 GetObjects, PutObjects, ListObjects - signs of lateral movement
+>		* Inactive account suddenly is used for lots of activities
+>		* Role chaining/cross account activity
+>		* New source IP/Geo
+>		* Change in security group policy
+>	* Discussion of cloud over-permissions
 >     * CSA Egregious Eleven discussion
-> * Cloud Kill Chain
->     * Recon
->         * Cloud infra misconfiguration
->     * Infiltration
+>	* Cloud Kill Chain
+>		* Recon
+>			* Cloud infra misconfiguration
+>		* Infiltration
 >			* Exploitation of resources with IAM permissons
 >		* Privilege Escalation
 >			* Role chaining or cross-account access
