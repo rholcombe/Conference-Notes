@@ -114,11 +114,10 @@
 >			* 
 >		* Privilege Escalation
 >			* 
->
 >	* Issues
 >		* GCP
->			* >> 85% have user managed keys not being rotated.
->			* >> 80% have service accounts with owner or editor directly or inherited.
+>			* \> 85% have user managed keys not being rotated.
+>			* \> 80% have service accounts with owner or editor directly or inherited.
 >	* How to fix this?
 >		* Virtually impossible to fix this manually
 >		* Leverage logging data from the platform and useful analysis
