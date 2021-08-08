@@ -208,7 +208,7 @@ GENERAL NOTES:
 >			* ASC Security Intermediate
 >				* Uses Cornucopia
 >				* Kind of OWASP top 5
->				* [Cornucopia](https://www.youtube.com/watch?v=BZVoQurTEMc)
+>				* Uses [Cornucopia](https://www.youtube.com/watch?v=BZVoQurTEMc)
 >				* AuthN
 >				* AuthZ
 >				* Session mgmt
@@ -232,7 +232,7 @@ GENERAL NOTES:
 >				* Online version of Cornucopia?
 
 ### Mainframe Container Breakout (Track2)
-> Chad Rikansrud @bigendiansmalls
+> Chad Rikansrud @bigendiansmalls  
 > Ian Coldwater @IanColdwater
 * z/OS Container extensions z/CX
 * Uses docker
@@ -588,5 +588,6 @@ Game Theory (Adv):
 >			* Standardized tagging (check out Yor!)
 >			* Location of crown jewels
 >	* [Hierarchy of Discovery](https://disruptops.com/aws-vs-azure-vs-gcp-a-security-pros-quick-cloud-comparison)
-> 
+> 	* Be aware of CSPM exceptions or enabled/disabled rules
+>	
 
