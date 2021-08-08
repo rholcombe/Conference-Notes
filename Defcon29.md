@@ -1,8 +1,6 @@
 # DEFCON 29
 ## Talk links will be updated when available
 
-### Unsorted Links
-
 ### Medical Device Panel
 >	* Stephanie Domas
 >	* Kymberlee Price	
@@ -190,12 +188,6 @@
 >			* Treat cluster-admin like root
     
 ## Day 2
-
-GENERAL NOTES:
-* https://www.dataquest.io/blog/jupyter-notebook-tutorial/
-* https://blog.appsecco.com/hacker-days-understanding-aws-cloud-attacks-using-cloudgoat-owasp-bay-area-cdeb39006e12
-* GitHub mandaroryprogrammer/PaperChaser
-* Cyber Aces
 
 ### Scaling appsec through education (AppSec)
 > Grant Ongers @rewtd
@@ -591,4 +583,9 @@ GENERAL NOTES:
 >		* [Cloud Security Maturity Model (CSMM)](https://www.iansresearch.com/resources/cloud-security-maturity-model/what-is-the-csmm) - IANS, CSA, Securosis
 >		* [Marco Lancini's](https://roadmap.cloudsecdocs.com/)
 
+#### Unsorted Links
+https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+https://blog.appsecco.com/hacker-days-understanding-aws-cloud-attacks-using-cloudgoat-owasp-bay-area-cdeb39006e12
+https://www.github.com/mandaroryprogrammer/PaperChaser
+Cyber Aces
 
