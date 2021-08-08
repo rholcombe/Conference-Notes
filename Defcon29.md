@@ -1,7 +1,7 @@
 # DEFCON 29
 ## Talk links will be updated when available
 
-### Unsorted LInks
+### Unsorted Links
 
 ### Medical Device Panel
 >	* Stephanie Domas
@@ -11,7 +11,7 @@
 
 ### OSQuery (BTV)
 > Sebastiaan Provost @Stekkz
->> Presentation slides
+>	Presentation slides
 >
 >	* EDR tool
 >	* Uses sql queries to explore the OS
