@@ -464,7 +464,6 @@ GENERAL NOTES:
 >			* Generate new policies removing high-risk
 >			* Anomoly & outlier
 
-
 ### I know who has access to my cloud, do you? (CV)
 > Igal Flegmann
 >> Presentation slides
@@ -522,6 +521,7 @@ GENERAL NOTES:
 ### GCP GOAT (CV)
 > Joshua Jebaraj
 >> Presentation slides
+>> [GCP-Goat](https://github.com/joshuajebaraj/gcp-goat)
 >
 >	* Compute Engine
 >	* App Engine
@@ -529,7 +529,6 @@ GENERAL NOTES:
 >	* GCP Buckets
 >	* GKE Cluster
 >	* Privilege escalation
->	* Github - https://github.com/joshuajebaraj/gcp-goat
 
 ### Cloud Security Orienteering (CV)
 > Rami McCarthy @ramimacisabird
