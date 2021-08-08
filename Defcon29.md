@@ -3,55 +3,57 @@
 
 ### Unsorted LInks
 
-* Medical Device Panel
->	* Stephanie Domas
->	* Kymberlee Price	
+	* Medical Device Panel
+>		* Stephanie Domas
+>		* Kymberlee Price	
 
 ## Day 1
 
 ### OSQuery (BTV)
 > Sebastiaan Provost @Stekkz
+>> Presentation slides
 >
-> * EDR tool
-> * Uses sql queries to explore the OS
-> * Yara
+>	* EDR tool
+>	* Uses sql queries to explore the OS
+>	* Yara
 
 ### Detection Challenges in Cloud Connected Credential Abuse Attacks (CV)
 > Rod Soto
+>> Presentation slides
 >
-> * General discussion of the shared responsibility model
-> * Use of vulnerable components
-> * Exposure of applications and infrastructure
-> * Re-use of federated credentials
->     * Golden SAML attack
->         * SAML forging
->         * Requires strict SAML assertion checking
->     * OAuth token hijack                                                       
->   	 * The use of a refresh token eliminates the usefulness of MFA
->   * Pass-the-cookie
-> * Pivoting from providers to internal or converged resources
-> * Post exploitation
->     * ADFSDump
->         * Exploitation can result in bypass of RDP, exchange online, VPN w/o MFA, etc
->     * The Colonial Pipeline hack utilized this and a VPN with no MFA
->    
-> * Approach to these attacks
->     * Endpoint (TTP numbers in presentation)
->         * Certutil
->         * Uncommon processes
->         * Registry keys used for privileges
->         * Mimikatz
->     * Cloud (TTP numbers in presentation - other cloud providers information not provided)
->         * AWS SAML access
->         * AWS SAML update identity provider
->         * O365 Excessive SSO logon errors
->         * O365 added service principal
->         * O365 federated domain added
->     * Detection via excessive SSO errors
+>	* General discussion of the shared responsibility model
+>	* Use of vulnerable components
+>	* Exposure of applications and infrastructure
+>	* Re-use of federated credentials
+>		* Golden SAML attack
+>			* SAML forging
+>			* Requires strict SAML assertion checking
+>		* OAuth token hijack                                                       
+>			* The use of a refresh token eliminates the usefulness of MFA
+>		* Pass-the-cookie
+>	* Pivoting from providers to internal or converged resources
+>	* Post exploitation
+>		* ADFSDump
+>			* Exploitation can result in bypass of RDP, exchange online, VPN w/o MFA, etc
+>				* The Colonial Pipeline hack utilized this and a VPN with no MFA
+>	* Approach to these attacks
+>		* Endpoint (TTP numbers in presentation)
+>			* Certutil
+>			* Uncommon processes
+>			* Registry keys used for privileges
+>			* Mimikatz
+>		* Cloud (TTP numbers in presentation - other cloud providers information not provided)
+>			* AWS SAML access
+>			* AWS SAML update identity provider
+>			* O365 Excessive SSO logon errors
+>			* O365 added service principal
+>			* O365 federated domain added
+>		* Detection via excessive SSO errors
 
 ### AI Village Keynote (AIV)
 > Bruce Schneider
 >>	* https://www.belfercenter.org/publication/coming-ai-hackers
+>> Presentation slides
 >
 >	* Modern AI systems are essentially black boxes (explainability problem)
 >	* Deep Patient (medical diagnostic)
@@ -64,6 +66,7 @@
 
 ### What we thought would happen in 2021 (BTV)
 > Gert-Jan Brggink @gertjanbruggink
+>> Presentation slides
 >
 >	* Overall risk is becoming greater
 >	* Evolution of crimewave business
@@ -81,21 +84,24 @@
 
 ### Attacking Modern Environments: Attacking Terraform (CV)
 > Mazin Ahmed @mazen160!
+>> Presentation slides
 >
 >	* **Missed most of this**
 >	* Rogue terraform providers
 
 ### KubeGOAT (CV)
 > Madhu Akula @madhuakula
+>> Presentation slides
 >
-> * For learning kubernetes security
-> * The illustrated children’s guide to kubernetes
-> * Kubernetesbyexample
-> * DIND exploitation
-> * Testing and evaluation of runtime security options
+>	* For learning kubernetes security
+>	* The illustrated children’s guide to kubernetes
+>	* Kubernetesbyexample
+>	* DIND exploitation
+>	* Testing and evaluation of runtime security options
 
 ### Trailblazing AI for Cyber (AIV)
 > Sagar Samtani
+>> Presentation slides
 >
 >	* Slides available on aivillage site
 >	* Cybersecurity for AI vs the role of AI for cybersecurity
@@ -119,6 +125,7 @@
 
 ### Kubestriker (DL1)
 > Vasant Chinnipilli
+>> Presentation slides
 >
 >	* Runs as container
 >	* Evaluates clusters
@@ -129,6 +136,7 @@
 
 ### Kubernetes Security 101 (CV)
 > Mango Logan @mangologan
+>> Presentation slides
 >
 >>	* https://github.com/magnologan/awesome-k8s-security
 >>	* https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html
@@ -193,9 +201,12 @@ GENERAL NOTES:
 * https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 * https://blog.appsecco.com/hacker-days-understanding-aws-cloud-attacks-using-cloudgoat-owasp-bay-area-cdeb39006e12
 * GitHub mandaroryprogrammer/PaperChaser
+* Cyber Aces
 
 ### Scaling appsec through education (AppSec)
 > Grant Ongers @rewtd
+>> Presentation slides
+>
 >	* Almost all problems in code
 >		* Traditional focus doesn’t cover enough
 >		* Security Level Objectives (SLO)
@@ -234,194 +245,147 @@ GENERAL NOTES:
 ### Mainframe Container Breakout (Track2)
 > Chad Rikansrud @bigendiansmalls  
 > Ian Coldwater @IanColdwater
-* z/OS Container extensions z/CX
-* Uses docker
-* Evil Mainframe class
-* Known DIND security holes
-* Z/CX auth plugin
-* Docker.sock
-    * Known security hole if exposed
-    * Engine API
+>> Presentation slides
+> 	
+>	* z/OS Container extensions z/CX
+>		* Uses docker
+>	* Evil Mainframe class
+>	* Known DIND security holes
+>	* Z/CX auth plugin
+>	* Docker.sock
+>		* Known security hole if exposed
+>		* Engine API
 
-What ML can do for security (BTV):
-* ML Definition
-    * Supervised
-    * Unsupervised
-        * Abstractions from unlabeled datasets
-* Neural Network (Deep Learning)
-        * Neural Network (Deep Learning)
-        * Modeled on human brain
-        * Learning by analyzing training examples
-        * clideo.com
-            * Tensor flow example
-* Deep Learning
-    * Stacked neural networks
-    * Supervised, semi-supervised, or unsupervised
-    * Requires extensively labeled dataset
-    * Anamoly detection (UBEA)
-* Preparing the data
-    * Selection and sampling
-    * Feature extraction
-    * Encoding & vectorization
-    * Normalization
-* Pattern recognition
-    * Can be used to teach an algorithm to recognize other forms of the data
-* Clustering
-    * Grouping
-        * k-means and dbscan
-    * Clustering SOC events
-    * Can be applied to data, requires statistical validation
-* Classification
-    * Predict the likelihood that a given sample belongs to a predefined class
-        * Is supervised
-    * Training, validation, testing, and deployment
-    * Not a yes or no but a measure of likelihood
-    * Contextual Embedding
-        * word2vec algorithm
-        * Useful for finding aliases
-* Anomaly detection
-    * Establish what normal is
-    * Deviation from normal
-    * IDS
-        * Describe desirable IDS parameters
-        * Describe HIDS parameters
-        * Describing OSQuery
-        * NIDS traditionally uses sigs, snort, zeek (formally bro)
-    * Web app intrusion detection
-    * Malware analysis
+### What ML can do for security (BTV):
+> Wendy Edwards @wayward710
+>> Presentation slides
+>
+>	* ML Definition
+>		* Supervised
+>		* Unsupervised
+>			* Abstractions from unlabeled datasets
+>	* Neural Network
+>		* Modeled on human brain
+>		* Learning by analyzing training examples
+>		* clideo.com
+>			* Tensor flow example
+>	* Deep Learning
+>		* Stacked neural networks
+>		* Supervised, semi-supervised, or unsupervised
+>		* Requires extensively labeled dataset
+>		* Anamoly detection (UBEA)
+>	* Preparing the data
+>		* Selection and sampling
+>		* Feature extraction
+>		* Encoding & vectorization
+>		* Normalization
+>	* Pattern recognition
+>		* Can be used to teach an algorithm to recognize other forms of the data
+>	* Clustering
+>		* Grouping
+>		* k-means and dbscan
+>		* Clustering SOC events
+>		* Can be applied to data, requires statistical validation
+>	* Classification
+>		* Predict the likelihood that a given sample belongs to a predefined class
+>		* Is supervised
+>		* Training, validation, testing, and deployment
+>		* Not a yes or no but a measure of likelihood
+>	* Contextual Embedding
+>		* word2vec algorithm
+>		* Useful for finding aliases
+>	* Anomaly detection
+>		* Establish what normal is
+>		* Deviation from normal
+>		* Examples    
+>			* (N|H)IDS
+>				* Describe desirable IDS parameters
+>				* Describe HIDS parameters
+>				* Describing OSQuery
+>				* Web app intrusion detection
+>				* Malware analysis
 
-How do you do ALL THE CLOUDS (BTV):
-* https://cfc.blueteamvillage.org/media/call-for-content-2021/submissions/ZMUGGE/resources/BTV-henry_-_How_do_you_ALL_THE_CLOUDS_17ACPJP.pdf
-* General cloud challenges
-    * Sec
-        * Account sprawl
-        * Misconfiguration
-        * Reliable identity and asset mgmt
-        * Lack of cloud security arch
-        * Lack of visibility/control
-        * Insufficient identity, credential, access, and key mgmt
-        * Insecure interfaces/API
-        * Unknown public exposure
-        * Cloud usage visibility
-        * PULL OBJECTIVES FROM SLIDE/PRESO
-    * GRC
-    * Interoperability
-    * Expense Management
+### How do you do ALL THE CLOUDS (BTV):
+> henry @Bazinga73
+> [Presentation slides](https://cfc.blueteamvillage.org/media/call-for-content-2021/submissions/ZMUGGE/resources/BTV-henry_-_How_do_you_ALL_THE_CLOUDS_17ACPJP.pdf)
+>
+>	* General cloud challenges
+>		* Security
+>			* Account sprawl
+>			* Misconfiguration
+>			* Reliable identity and asset mgmt
+>			* Lack of cloud security arch
+>			* Lack of visibility/control
+>			* Insufficient identity, credential, access, and key mgmt
+>			* Insecure interfaces/API
+>			* Unknown public exposure
+>			* Cloud usage visibility
+>		* GRC
+>		* Interoperability
+>		* Expense Management
 
-Shift Left using cloud (CV):
-* Generic DevSecOps discussion
+### Modern Auth for security admins (BTV)
+> Bailey Bercik @BaileyBercik. 
+> Mark Morowczynski @markmorow
+> **MS Identity Product Group**
+>	* Discussion of modern auth methods	
+>		* SAML
+>			* XML based AuthN
+>			* Golden SAML attack
+>				* Compromise the cert (SAML assertion) and can forget SAML
+>			* ACS URL
+>			* SAML logout
+>			* Token monitoring
+>				* Swapping SAML token for session token
+>				* Inactivity and max lifetime
+>			* Reduce risk
+>				* Protect IdP like a domain controller
+>				* Protect certs
+>				* aka.ms/AzureADSecOps
+>		* Oauth2
+>			* AuthZ framework
+>				* Delegation protocol
+>			* Leverages HTTP, tokens and scopes
+>			* Components
+>				* Resource Owner
+>				* Protected Resource
+>				* Clien
+>				* Authorization Server
+>			* Access Token
+>				* “Bearer” Token
+>				* Must be used within of HTTPS
+>				* JWT common format
+>				* Auth server issues token
+>				* Protected resource consumes the token
+>			* Proper OAuth flows
+>				* Authorization code grant - majority
+>				* Implicit grant
+>				* On-behalf-of-grant
+>				* Device code grant 
+>				* Client credentials grant
+>				* Resource owner password credentials (ROPC) grant
+>		* OpenID Connect
+>			* Bult on OAuth2 for AuthN
+>				* Used JWT with JSON object signing and encryption
+>				* Gets an ID token along with access token
+>			* Ask vendors to support OIDC
+>			* Use an oauth OIDC library
+>			* Do not use ROPC flow
+>			* Ensure HTTPS is used and protect access tokens
+>			* Focus on least privileges on application consent
+>			* App consent phishing attacks
+>				* Delegated permissions vs application permissions
 
-Selling yourself as a security professional (Career):
-* Inbound vs outbound sales concepts
-* Must have resume
-    * Clean as possible
-    * Good use of whitespace
-    * More senior candidate is ok with more than one page
-* Really should have a linked in
-    * Be active
-    * Think about what’s posted on linked-in
-* Stay relevant
-* Tailor resume to job posting
-* Skills technology and tools section
-* Networking beats the system
-    * Give back, get known
-* Meetups, security meetups, conferences, 
-* Online networking, linked-in
-
-History of Adversarial Machine Learning (AIV):
-* AI expands the attack surface
-
- Career Hacking (Career):
-* Get a rough plan of roles
-* Identify what need to learn
-* Career maps
-* NICE framework
-* Identify gaps and strengths
-* Traning resources
-    * Cyber Aces (Free sans)
-    * Darkness diaries
-    * Beers with tacos
-    * Github/rshetty/awesome-podcasts
-    * Bsides
-    * Sans summits
-    * One hour per week for each category in need
-    * On an interval, learn something new
-* Evaluation
-    * Presented to conference to demonstrate new skill
-    * Host training
-    * Raise NICE assessment score by x%
-    * Document a plan
-* Working on your team
-    * Leaders are measured by the success of their team
-    * Maturity models are a simple and effective measurement
-    * Publicly recognize team accomplishments
-
-Modern Auth for security admins (BTV):
-* MS Identity Product Group
-* SAML
-    * XML based AuthN
-    * Golden SAML attack
-    * Compromise the cert (SAML assertion) and can forget SAML
-    * ACS URL
-    * SAML logout
-    * Token monitoring
-        * Swapping SAML token for session token
-        * Inactivity and max lifetime
-    * Reduce risk
-        * Protect IdP like a domain controller
-        * Protect certs
-        * aka.ms/AzureADSecOps
-* Oauth2
-    * AuthZ framework
-        * Delegation protocol
-    * Leverages HTTP, tokens and scopes
-    * Components
-        * Resource Owner
-        * Protected Resource
-        * Client
-        * Authorization Server
-    * Access Token
-        * “Bearer” Token
-        * Must be used outside of HTTPS
-        * JWT common format
-        * Auth server issues token
-        * Protected resource consumes the token
-    * Proper OAuth flows
-        * Authorization code grant - majority
-        * Implicit grant
-        * On-behalf-of-grant
-        * Device code grant 
-        * Client credentials grant
-        * Resource owner password credentials (ROPC) grant
-* OpenID Connect
-    * Bult on OAuth2 for AuthN
-    * Used JWT with JSON object signing and encryption
-    * Gets an ID token along with access token
-* Ask vendors to support OIDC
-* Use an oauth OIDC library
-* Do not use ROPC flow
-* Ensure HTTPS is used and protect access tokens
-* Focus on least privileges on application consent
-* App consent phishing attacks
-* Delegated permissions vs application permissions
-* Permissions review
-    * Read, write, or all - look
-* Risk based user step-up consent (azure AD)
-* 
-
-DevSecOps (ASV):
-* https://www.youtube.com/watch?v=JRWH8AdPpeE
-
-Game Theory (Adv):
-* Prisioner’s Dilemma
-    * 
-
+### DevSecOps (ASV)
+> Mango Logan @mangologan
+>> [Presentation video](https://www.youtube.com/watch?v=JRWH8AdPpeE)
 
 ## Day 3 
 
 ### Identifying toxic combinations of permissions in your cloud infrastrcutre (CV)
 > Michael Raggo
-> 
+>> Presentation slides
+>
 > * What am I looking for?
 >     * Uptick in identity account activity
 >     * High quantity of services
@@ -503,6 +467,7 @@ Game Theory (Adv):
 
 ### I know who has access to my cloud, do you? (CV)
 > Igal Flegmann
+>> Presentation slides
 >
 >	* Keep Management accounts to a minimum (0?)
 >		* IaC
@@ -556,6 +521,7 @@ Game Theory (Adv):
 
 ### GCP GOAT (CV)
 > Joshua Jebaraj
+>> Presentation slides
 >
 >	* Compute Engine
 >	* App Engine
