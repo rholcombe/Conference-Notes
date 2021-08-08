@@ -2,8 +2,7 @@
 ## Talk links will be updated when available
 
 ### Unsorted LInks
-* https://www.kubestriker.io/ 
-* https://github.com/vchinnipilli/kubestriker
+
 * https://github.com/magnologan/awesome-k8s-security
 * https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html
 * https://github.com/aquasecurity/kube-bench
@@ -11,7 +10,7 @@
 ## Day 1
 
 ### OSQuery (BTV)
-> Sebastiaan Provost  
+> Sebastiaan Provost @Stekkz
 >
 > * EDR tool
 > * Uses sql queries to explore the OS
@@ -50,7 +49,81 @@
 >         * O365 federated domain added   
 >     * Detection via excessive SSO errors 
 
+### AI Village Keynote (AIV)
+> Bruce Schneider
+>	* https://www.belfercenter.org/publication/coming-ai-hackers
+>
+>	* Modern AI systems are essentially black boxes (explainability problem)
+>	* Deep Patient (medical diagnostic)
+>	* Capability vs explainability
+>	* Any good AI system will naturally find hacks (loopholes)
+>	* Lack of specificity
+>	* Feedback method required
+>	* First places
+>		* Financial Systems (algorithm based)
 
+### What we thought would happen in 2021 (BTV)
+> Gert-Jan Brggink @gertjanbruggink
+>	* Overall risk is becoming greater
+>	* Evolution of crimewave business
+>	* Western bias in threat landscape
+>	* MacOS based threats
+>	* Windows “high ground”
+>	* Topics
+>		* Focus on old stuff
+>		* Extortion scheme evolution
+>		* DNS focused attacks
+>			* DNS over https
+>		* Evolution of browser injection attacks
+>			* Malware code
+>		* Modern wardriving
+
+### Attacking Modern Environments: Attacking Terraform (CV)
+> Mazin Ahmed @mazen160!
+>	* **Missed most of this**
+>	* Rogue terraform providers
+
+### KubeGOAT (CV)
+> Madhu Akula @madhuakula
+> * For learning kubernetes security
+> * The illustrated children’s guide to kubernetes
+> * Kubernetesbyexample
+> * DIND exploitation
+> * Testing and evaluation of runtime security options
+
+### Trailblazing AI for Cyber (AIV)
+> Sagar Samtani
+>	* Slides available on aivillage site
+>	* Cybersecurity for AI vs the role of AI for cybersecurity
+>	* Introduce the role of AI for cyber
+>	   * Automate common tasks
+>		* Sift through data more efficiently
+>		* Identify patterns
+>		* Phase 1: Fundamental Cyber Principles and tasks
+>		* Phase 2: Data collection and aggregation
+>		* Phase 3: AI-enabled analytics
+>		* Phase 4: Knowledge usage and dissemination
+>	* Provide a background of existing initiatives
+>		* Cyber threat intel
+>			* Dark web analysis (ISILinux)
+>			* Phishing (PhishMonger)
+>	* Disinformation & Propoganda
+>	* Security Operations
+>	* Adversarial Machine Learning
+>		* IEEE DLS, ScAINet (EvadeML, SecML)
+>	* Summarize potential mechanisms to progress the dicipline
+
+### Kubestriker (DL1)
+> Vasant Chinnipilli
+>	* Runs as container
+>	* Evaluates clusters
+>	* New version has much improved interface
+>	* Videos available in docs
+>	* https://www.kubestriker.io/
+>	* https://github.com/vchinnipilli/kubestriker
+ 
+
+    
 ## Day 2
 
 ## Day 3 
@@ -189,3 +262,38 @@
 >				* SQL server ADD changes
 >				* AKV access policy changes
 >				* AKV firewall changes
+
+### GCP GOAT (CV)
+> Joshua Jebaraj
+>
+>	* Compute Engine
+>	* App Engine
+>	* SQL Instance
+>	* GCP Buckets
+>	* GKE Cluster
+>	* Privilege escalation
+>	* Github - https://github.com/joshuajebaraj/gcp-goat
+
+### Cloud Security Orienteering (CV)
+> Rami McCarthy @ramimacisabird
+> 
+>	* Securosis cloud adoption patterns
+>		* Security typically lags
+>	* What does good look like?
+>		* Difficult due to complexity and emerging standards
+>		* Leveraging guidance and offerings to reduce complexity
+>		* Example of the Scott Piper AWS pillar whitepaper updates
+>		* CIS for secure configuration
+>		* Well architected security pillar
+>		* Security roadmap (AWS example)
+>	* Principles
+>		* Breadth, then depth
+>		* Anomaly detection
+>		* Inside out
+>		* Outside in
+>	* Corporate archeology
+>		* Items of note
+>			* Asset inventory
+>			* Standardized tagging (check out Yor!)
+>			* Location of crown jewels
+>
