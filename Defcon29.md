@@ -3,8 +3,6 @@
 
 ### Unsorted LInks
 
-* https://github.com/magnologan/awesome-k8s-security
-* https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html
 * Medical Device Panel
 >	* Stephanie Domas
 >	* Kymberlee Price	
@@ -130,7 +128,7 @@
 >	* https://github.com/vchinnipilli/kubestriker
 
 ### Kubernetes Security 101 (CV)
-> @mangologan
+> Mango Logan @mangologan
 >
 >>	* https://github.com/magnologan/awesome-k8s-security
 >>	* https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html
