@@ -52,7 +52,7 @@
 
 ### AI Village Keynote (AIV)
 > Bruce Schneider
->>	* https://www.belfercenter.org/publication/coming-ai-hackers
+>>	* https://www.belfercenter.org/publication/coming-ai-hackers 
 >> Presentation slides
 >
 >	* Modern AI systems are essentially black boxes (explainability problem)
