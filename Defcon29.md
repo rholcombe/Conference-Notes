@@ -11,11 +11,11 @@
 ## Day 1
 
 ### OSQuery (BTV)
-Sebastiaan Provost  
+> Sebastiaan Provost  
 
-* EDR tool
-* Uses sql queries to explore the OS
-* Yara
+> * EDR tool
+> * Uses sql queries to explore the OS
+> * Yara
 
 ### Detection Challenges in Cloud Connected Credential Abuse Attacks (CV)
 Rod Soto
