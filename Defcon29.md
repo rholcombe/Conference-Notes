@@ -11,7 +11,6 @@
 ## Day 1
 
 ### OSQuery (BTV)
-Link -   
 Sebastiaan Provost  
 
 * EDR tool
@@ -19,7 +18,6 @@ Sebastiaan Provost
 * Yara
 
 ### Detection Challenges in Cloud Connected Credential Abuse Attacks (CV)
-Link  
 Rod Soto
 
 - General discussion of the shared responsibility model. 
