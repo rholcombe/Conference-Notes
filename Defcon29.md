@@ -1,4 +1,4 @@
-# DefCon29
+# DEFCON 29
 ## Talk links will be updated when available
 
 ### Unsorted LInks
@@ -49,7 +49,8 @@
 >         - O365 added service principal
 >         - O365 federated domain added   
 >     - Excessive SSO errors 
-     
+
+###      
 
 
 
