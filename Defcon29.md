@@ -208,8 +208,7 @@ GENERAL NOTES:
 >			* ASC Security Intermediate
 >				* Uses Cornucopia
 >				* Kind of OWASP top 5
->				* Cornucopia is a card game
->					* youtu.be/BZVoQurTEMc
+>				* [Cornucopia](https://www.youtube.com/watch?v=BZVoQurTEMc)
 >				* AuthN
 >				* AuthZ
 >				* Session mgmt
