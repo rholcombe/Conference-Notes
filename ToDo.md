@@ -1,4 +1,4 @@
-#Sessions/Items To Watch or Schedule
+# Sessions/Items To Watch or Schedule
 
 1. [ ] [GCP Security Summit](https://cloudonair.withgoogle.com/events/summit-security)
 2. [ ] Determine travel requirements to Bay Area for [Cloud Next'21](https://cloud.withgoogle.com/next/?utm_source=cgc-site&utm_medium=et&_ga=2.245355148.883877805.1628366248-733687006.1618237702) (October 12-14)
