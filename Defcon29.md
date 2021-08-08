@@ -3,9 +3,9 @@
 
 ### Unsorted LInks
 
-	* Medical Device Panel
->		* Stephanie Domas
->		* Kymberlee Price	
+### Medical Device Panel
+>	* Stephanie Domas
+>	* Kymberlee Price	
 
 ## Day 1
 
