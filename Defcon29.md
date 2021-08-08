@@ -567,7 +567,8 @@ Game Theory (Adv):
 
 ### Cloud Security Orienteering (CV)
 > Rami McCarthy @ramimacisabird
-> 
+> > [Presentation slides](https://speakerdeck.com/ramimac/cloud-security-orienteering)
+>
 >	* Securosis cloud adoption patterns
 >		* Security typically lags
 >	* What does good look like?
@@ -589,5 +590,44 @@ Game Theory (Adv):
 >			* Location of crown jewels
 >	* [Hierarchy of Discovery](https://disruptops.com/aws-vs-azure-vs-gcp-a-security-pros-quick-cloud-comparison)
 > 	* Be aware of CSPM exceptions or enabled/disabled rules
->	
+>	* Claims GCP has excellent asset inventory tools out of the box
+>	* Prioritization
+>		* Identity is the perimeter but the network perimeter is stil a thing
+>		* [Kill chains](https://disruptops.com/stop-todays-top-10-cloud-attack-killchains/)
+>	* Identity perimeter
+>		* Management plane access model (local users vs federated users, MFA, etc)
+>		* SSH/Server access model
+>			* Bastion
+>			* Direct SSH
+>			* SSM-only
+>			* Tooling (ZTA)
+>		* Least privilege & IAm sec
+>			* IAM credential report
+>			* OSS tooling
+>				* Cloudsplaining
+>				* PMapper
+>		* Network Perimeter
+>			* Public resources
+>			* Wildcard security groups
+>			* Default resources (VPC, SGs)
+>				* Launch-wizard SGs
+>		* Hosted applications & services
+>			* Out of date, known vulnerabilities
+>			* Unauthenticated services
+>			* Sensitive or internal (CI/CD, config mgmt)
+>		* Exposed secrets
+>		* Secret managment pattern
+>		* Supply chain
+>	* Blanket AWS harding recommendations
+>		* Enable Guardduty
+>		* Enable cloudtrail
+>			* Enable optional security features, including encryption at-rest and file validation
+>			* Centralize and backup logs
+>		* Access analyzer
+>		* Security visibity to all accounts
+>		* S3 block public access, EBS and all other default encryption
+>	* Maturity models
+>		* [Cloud Security Maturity Model (CSMM)](https://www.iansresearch.com/resources/cloud-security-maturity-model/what-is-the-csmm) - IANS, CSA, Securosis
+>		* [Marco Lancini's](https://roadmap.cloudsecdocs.com/)
+
 
