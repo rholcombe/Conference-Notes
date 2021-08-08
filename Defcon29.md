@@ -124,7 +124,7 @@
 
 ### Kubestriker (DL1)
 > Vasant Chinnipilli
->> Presentation slides
+>> Presentation slides  
 >> [Kubestriker](https://github.com/vchinnipilli/kubestriker)
 >
 >	* Runs as container
