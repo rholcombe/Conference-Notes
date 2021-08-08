@@ -189,7 +189,7 @@
     
 ## Day 2
 
-### Scaling appsec through education (AppSec)
+### Scaling appsec through education (ASV)
 > Grant Ongers @rewtd
 >> Presentation slides
 >
