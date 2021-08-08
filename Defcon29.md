@@ -209,7 +209,7 @@ GENERAL NOTES:
 >				* Uses Cornucopia
 >				* Kind of OWASP top 5
 >				* Cornucopia is a card game
->				* youtu.be/BZVoQurTEMc
+>				>	* youtu.be/BZVoQurTEMc
 >				* AuthN
 >				* AuthZ
 >				* Session mgmt
