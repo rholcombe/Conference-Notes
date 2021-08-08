@@ -189,6 +189,235 @@
     
 ## Day 2
 
+GENERAL NOTES:
+* https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+* https://blog.appsecco.com/hacker-days-understanding-aws-cloud-attacks-using-cloudgoat-owasp-bay-area-cdeb39006e12
+* GitHub mandaroryprogrammer/PaperChaser
+
+### Scaling appsec through education (AppSec)
+> Grant Ongers @rewtd
+>	* Almost all problems in code
+>		* Traditional focus doesn’t cover enough
+>		* Security Level Objectives (SLO)
+>>			* [BlackHat EU talk](https://www.blackhat.com/eu-20/features/schedule/index.html#are-you-big-friendly-giant---red-unless-blue-finds-green-ru-bfg-22029)
+>	* Curriculum Development
+>		* Based on OWASP standards
+>			* ASC Foundation
+>				* Slide and speaker notes for each of the top 10
+>				* OWASP application security curriculum
+>			* ASC Security Intermediate
+>				* Uses Cornucopia
+>				* Kind of OWASP top 5
+>				* Cornucopia is a card game
+>				* youtu.be/BZVoQurTEMc
+>				* AuthN
+>				* AuthZ
+>				* Session mgmt
+>				* Crypto
+>				* Data validation
+>				* Misc
+>				* Play the game with devs
+>					* Guide them through the cards
+>					* Encourage the cards use each sprint
+>						* Tagging stories
+>						* Retain Score sheet
+>			* Application Security Tertiary Education
+>				* OWASP ASVS
+>				* ASVS Suitability
+>					* 3 Levels
+>						* Level 1 (opportunistic) used for all apps
+>						* Level 2 (Standard) discussions
+>						* Level 3 (Advanced) serious about security
+>				* OWASP SAMM
+>					* Prescriptive rather than descriptive (ASVS)
+>				* Online version of Cornucopia?
+
+### Mainframe Container Breakout (Track2)
+> Chad Rikansrud @bigendiansmalls
+> Ian Coldwater @IanColdwater
+* z/OS Container extensions z/CX
+* Uses docker
+* Evil Mainframe class
+* Known DIND security holes
+* Z/CX auth plugin
+* Docker.sock
+    * Known security hole if exposed
+    * Engine API
+
+What ML can do for security (BTV):
+* ML Definition
+    * Supervised
+    * Unsupervised
+        * Abstractions from unlabeled datasets
+* Neural Network (Deep Learning)
+        * Neural Network (Deep Learning)
+        * Modeled on human brain
+        * Learning by analyzing training examples
+        * clideo.com
+            * Tensor flow example
+* Deep Learning
+    * Stacked neural networks
+    * Supervised, semi-supervised, or unsupervised
+    * Requires extensively labeled dataset
+    * Anamoly detection (UBEA)
+* Preparing the data
+    * Selection and sampling
+    * Feature extraction
+    * Encoding & vectorization
+    * Normalization
+* Pattern recognition
+    * Can be used to teach an algorithm to recognize other forms of the data
+* Clustering
+    * Grouping
+        * k-means and dbscan
+    * Clustering SOC events
+    * Can be applied to data, requires statistical validation
+* Classification
+    * Predict the likelihood that a given sample belongs to a predefined class
+        * Is supervised
+    * Training, validation, testing, and deployment
+    * Not a yes or no but a measure of likelihood
+    * Contextual Embedding
+        * word2vec algorithm
+        * Useful for finding aliases
+* Anomaly detection
+    * Establish what normal is
+    * Deviation from normal
+    * IDS
+        * Describe desirable IDS parameters
+        * Describe HIDS parameters
+        * Describing OSQuery
+        * NIDS traditionally uses sigs, snort, zeek (formally bro)
+    * Web app intrusion detection
+    * Malware analysis
+
+How do you do ALL THE CLOUDS (BTV):
+* https://cfc.blueteamvillage.org/media/call-for-content-2021/submissions/ZMUGGE/resources/BTV-henry_-_How_do_you_ALL_THE_CLOUDS_17ACPJP.pdf
+* General cloud challenges
+    * Sec
+        * Account sprawl
+        * Misconfiguration
+        * Reliable identity and asset mgmt
+        * Lack of cloud security arch
+        * Lack of visibility/control
+        * Insufficient identity, credential, access, and key mgmt
+        * Insecure interfaces/API
+        * Unknown public exposure
+        * Cloud usage visibility
+        * PULL OBJECTIVES FROM SLIDE/PRESO
+    * GRC
+    * Interoperability
+    * Expense Management
+
+Shift Left using cloud (CV):
+* Generic DevSecOps discussion
+
+Selling yourself as a security professional (Career):
+* Inbound vs outbound sales concepts
+* Must have resume
+    * Clean as possible
+    * Good use of whitespace
+    * More senior candidate is ok with more than one page
+* Really should have a linked in
+    * Be active
+    * Think about what’s posted on linked-in
+* Stay relevant
+* Tailor resume to job posting
+* Skills technology and tools section
+* Networking beats the system
+    * Give back, get known
+* Meetups, security meetups, conferences, 
+* Online networking, linked-in
+
+History of Adversarial Machine Learning (AIV):
+* AI expands the attack surface
+
+ Career Hacking (Career):
+* Get a rough plan of roles
+* Identify what need to learn
+* Career maps
+* NICE framework
+* Identify gaps and strengths
+* Traning resources
+    * Cyber Aces (Free sans)
+    * Darkness diaries
+    * Beers with tacos
+    * Github/rshetty/awesome-podcasts
+    * Bsides
+    * Sans summits
+    * One hour per week for each category in need
+    * On an interval, learn something new
+* Evaluation
+    * Presented to conference to demonstrate new skill
+    * Host training
+    * Raise NICE assessment score by x%
+    * Document a plan
+* Working on your team
+    * Leaders are measured by the success of their team
+    * Maturity models are a simple and effective measurement
+    * Publicly recognize team accomplishments
+
+Modern Auth for security admins (BTV):
+* MS Identity Product Group
+* SAML
+    * XML based AuthN
+    * Golden SAML attack
+    * Compromise the cert (SAML assertion) and can forget SAML
+    * ACS URL
+    * SAML logout
+    * Token monitoring
+        * Swapping SAML token for session token
+        * Inactivity and max lifetime
+    * Reduce risk
+        * Protect IdP like a domain controller
+        * Protect certs
+        * aka.ms/AzureADSecOps
+* Oauth2
+    * AuthZ framework
+        * Delegation protocol
+    * Leverages HTTP, tokens and scopes
+    * Components
+        * Resource Owner
+        * Protected Resource
+        * Client
+        * Authorization Server
+    * Access Token
+        * “Bearer” Token
+        * Must be used outside of HTTPS
+        * JWT common format
+        * Auth server issues token
+        * Protected resource consumes the token
+    * Proper OAuth flows
+        * Authorization code grant - majority
+        * Implicit grant
+        * On-behalf-of-grant
+        * Device code grant 
+        * Client credentials grant
+        * Resource owner password credentials (ROPC) grant
+* OpenID Connect
+    * Bult on OAuth2 for AuthN
+    * Used JWT with JSON object signing and encryption
+    * Gets an ID token along with access token
+* Ask vendors to support OIDC
+* Use an oauth OIDC library
+* Do not use ROPC flow
+* Ensure HTTPS is used and protect access tokens
+* Focus on least privileges on application consent
+* App consent phishing attacks
+* Delegated permissions vs application permissions
+* Permissions review
+    * Read, write, or all - look
+* Risk based user step-up consent (azure AD)
+* 
+
+DevSecOps (ASV):
+* https://www.youtube.com/watch?v=JRWH8AdPpeE
+
+Game Theory (Adv):
+* Prisioner’s Dilemma
+    * 
+
+
 ## Day 3 
 
 ### Identifying toxic combinations of permissions in your cloud infrastrcutre (CV)
@@ -359,4 +588,6 @@
 >			* Asset inventory
 >			* Standardized tagging (check out Yor!)
 >			* Location of crown jewels
->
+>	* [Hierarchy of Discovery](https://disruptops.com/aws-vs-azure-vs-gcp-a-security-pros-quick-cloud-comparison)
+> 
+
