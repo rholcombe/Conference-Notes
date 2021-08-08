@@ -2,8 +2,8 @@
 ## Talk links will be updated when available
 
 ### Medical Device Panel
->	* Stephanie Domas
->	* Kymberlee Price	
+> Stephanie Domas  
+> Kymberlee Price	
 
 ## Day 1
 
