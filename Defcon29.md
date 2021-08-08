@@ -228,7 +228,7 @@
 >					* Prescriptive rather than descriptive (ASVS)
 >				* Online version of Cornucopia?
 
-### Mainframe Container Breakout (Track2)
+### z/OS Container Breakout (Track2)
 > Chad Rikansrud @bigendiansmalls  
 > Ian Coldwater @IanColdwater
 >> Presentation slides
