@@ -11,7 +11,7 @@
 
 ### OSQuery (BTV)
 > Sebastiaan Provost @Stekkz
->	Presentation slides
+>> Presentation slides
 >
 >	* EDR tool
 >	* Uses sql queries to explore the OS
