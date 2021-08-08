@@ -12,4 +12,5 @@
 9. [ ] [Google Security Analytics](https://blackhat.app.swapcard.com/event/black-hat-usa-2021/planning/UGxhbm5pbmdfNjMyMDA3)
 10. [ ] [BlackHat Locknote](https://blackhat.app.swapcard.com/event/black-hat-usa-2021/planning/UGxhbm5pbmdfNjE1OTM1)
 11. [ ] [BlackHat Jen Easterly Keynote](https://blackhat.app.swapcard.com/event/black-hat-usa-2021/planning/UGxhbm5pbmdfNjIzODU3)
-12. [ ] 
+12. [ ] [Secure All the Cloud Presentation - BTV](https://cfc.blueteamvillage.org/media/call-for-content-2021/submissions/ZMUGGE/resources/BTV-henry_-_How_do_you_ALL_THE_CLOUDS_17ACPJP.pdf)
+
