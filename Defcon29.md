@@ -517,7 +517,7 @@ GENERAL NOTES:
 
 ### GCP GOAT (CV)
 > Joshua Jebaraj
->> Presentation slides
+>> Presentation slides  
 >> [GCP-Goat](https://github.com/joshuajebaraj/gcp-goat)
 >
 >	* Compute Engine
