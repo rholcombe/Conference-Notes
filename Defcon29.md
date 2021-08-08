@@ -1,16 +1,16 @@
-#DefCon29
-##Talk links will be updated when available
+# DefCon29
+## Talk links will be updated when available
 
-###Unsorted LInks
+### Unsorted LInks
 * https://www.kubestriker.io/ 
 * https://github.com/vchinnipilli/kubestriker
 * https://github.com/magnologan/awesome-k8s-security
 * https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html
 * https://github.com/aquasecurity/kube-bench
 
-##Day 1
+## Day 1
 
-####OSQuery (BTV)
+#### OSQuery (BTV)
 Link -   
 Sebastiaan Provost  
 
@@ -18,7 +18,7 @@ Sebastiaan Provost
 * Uses sql queries to explore the OS
 * Yara
 
-####Detection Challenges in Cloud Connected Credential Abuse Attacks (CV)
+#### Detection Challenges in Cloud Connected Credential Abuse Attacks (CV)
 Link  
 Rod Soto
 
@@ -55,6 +55,6 @@ Rod Soto
 
 
 
-##Day 2
+## Day 2
 
-##Day 3 
+## Day 3 
