@@ -10,7 +10,7 @@
 
 ## Day 1
 
-#### OSQuery (BTV)
+### OSQuery (BTV)
 Link -   
 Sebastiaan Provost  
 
@@ -18,7 +18,7 @@ Sebastiaan Provost
 * Uses sql queries to explore the OS
 * Yara
 
-#### Detection Challenges in Cloud Connected Credential Abuse Attacks (CV)
+### Detection Challenges in Cloud Connected Credential Abuse Attacks (CV)
 Link  
 Rod Soto
 
