@@ -237,8 +237,8 @@
 >		* Uses docker
 >	* Evil Mainframe class
 >	* Known DIND security holes
->	* Z/CX auth plugin
->	* Docker.sock
+>	* z/CX auth plugin
+>	* docker socket
 >		* Known security hole if exposed
 >		* Engine API
 
